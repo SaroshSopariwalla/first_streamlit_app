@@ -23,5 +23,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected] #.loc is labels
 
 # Display the table on the page.
 
-streamlit.dataframe(froots_to_show)
+streamlit.dataframe(fruits_to_show)
 ##################################################################################
